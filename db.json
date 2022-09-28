@@ -262,35 +262,6 @@
           "quanti": 3
         }
       ]
-    },
-    {
-      "username": "Huu Nghia",
-      "gmail": "HuuNghiat@gmail.com",
-      "password": "12345",
-      "products": [
-        {
-          "idItem": 2,
-          "quanti": 3
-        }
-      ],
-      "createdAt": 1664269203692,
-      "id": 2
-    },
-    {
-      "username": "huy8989",
-      "email": "huy89@gmail.com",
-      "password": "Theanhmgt66@",
-      "products": [],
-      "createdAt": 1664269408138,
-      "id": 3
-    },
-    {
-      "username": "theanh28",
-      "email": "2151013002anh@ou.edu.vn",
-      "password": "Theanhmgt66@",
-      "products": [],
-      "createdAt": 1664269833905,
-      "id": 4
     }
   ]
 }
