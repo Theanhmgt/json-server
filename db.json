@@ -262,6 +262,18 @@
           "quanti": 3
         }
       ]
+    },
+    {
+      "id": 2,
+      "username": "The Anh",
+      "gmail": "admint@gmail.com",
+      "password": "Theanh28@",
+      "products": [
+        {
+          "idItem": 2,
+          "quanti": 2
+        }
+      ]
     }
   ]
 }
