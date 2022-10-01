@@ -254,26 +254,16 @@
     {
       "id": 1,
       "username": "The Anh",
-      "gmail": "theanhmgt@gmail.com",
-      "password": "12345",
-      "products": [
-        {
-          "idItem": 2,
-          "quanti": 3
-        }
-      ]
+      "gmail": "admin@gmail.com",
+      "password": "Theanh28@",
+      "products": []
     },
     {
       "id": 2,
       "username": "The Anh",
       "gmail": "admint@gmail.com",
       "password": "Theanh28@",
-      "products": [
-        {
-          "idItem": 2,
-          "quanti": 2
-        }
-      ]
+      "products": []
     }
   ]
 }
