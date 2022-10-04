@@ -256,7 +256,7 @@
       "username": "The Anh",
       "email": "admin@gmail.com",
       "password": "Theanh28@",
-      "products": []
+      "cart": { "cartItems": [], "cartTotalAmount": 0, "cartTotalQuantity": 0 }
     }
   ]
 }
