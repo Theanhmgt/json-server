@@ -256,6 +256,7 @@
       "username": "The Anh",
       "email": "admin@gmail.com",
       "password": "Theanh28@",
+      "avata": "https://www.facebook.com/photo/?fbid=3000080336985497&set=a.1639185969741614",
       "cart": { "cartItems": [], "cartTotalAmount": 0, "cartTotalQuantity": 0 }
     }
   ]
