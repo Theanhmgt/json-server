@@ -248,6 +248,80 @@
       "newPrice": 750,
       "review": 5,
       "condition": "in stock"
+    },
+    {
+      "id": 11,
+      "name": "MAG Infinite S3 12th",
+      "title": "MAG Infinite S3 12th MAG Infinite S3 12TC-251MYS HDMIx1, Display Portx3, GeForce RTX 3060 VENTUS 2X 12G, 12G",
+      "images": [
+        "images/laptops/pc11-1.png",
+        "images/laptops/pc11-2.png",
+        "images/laptops/pc11-3.png"
+      ],
+      "categorySlug": "pc-gaming",
+      "detail": [
+        "1x HDMI™ port, support 4K@60Hz as specified in HDMI™ 2.1",
+        "1x VGA port (D sub)",
+        "1x Display port, support 4K@60Hz as specified in DP 1.4",
+        "4x USB 2.0 Type A / 1x PS/2 combo port",
+        "2x USB 3.2 Gen 1 Type A",
+        "1x RJ45 (1G LAN)",
+        "3x Audio jacks"
+      ],
+      "oldPrice": 1099,
+      "newPrice": 1050,
+      "review": 5,
+      "condition": "in stock"
+    },
+    {
+      "id": 12,
+      "name": "Bravo 15 B5DD",
+      "title": "Bravo 15 B5DD Up to AMD Ryzen™ 7 5000 H-Processors",
+      "images": [
+        "images/laptops/lap9-1.png",
+        "images/laptops/lap9-2.png",
+        "images/laptops/lap9-3.png"
+      ],
+      "categorySlug": "laptop-gaming",
+      "detail": [
+        "Up to AMD Ryzen™ 7 5000 H-Processors",
+        "Windows 11 Home",
+        "15.6' FHD (1920x1080), 144Hz, IPS-Level",
+        "512GB NVMe PCIe Gen3x4 SSD",
+        "Killer 2.5Gb LAN",
+        "Killer Wi-Fi 6E AX1675",
+        "Bluetooth v5.2",
+        "1x Mic-in/Headphone-out Combo Jack"
+      ],
+      "oldPrice": 499,
+      "newPrice": 400,
+      "review": 5,
+      "condition": "in stock"
+    },
+    {
+      "id": 13,
+      "name": "Katana GF76",
+      "title": "Katana GF76 Intel® Core™ i7",
+      "images": [
+        "images/laptops/lap9-1.png",
+        "images/laptops/lap9-2.png",
+        "images/laptops/lap9-3.png"
+      ],
+      "categorySlug": "laptop-gaming",
+      "detail": [
+        " Intel® Core™ i7",
+        "NVIDIA® GeForce RTX™ 30",
+        "15.6' FHD (1920x1080), 144Hz, IPS-Level",
+        "512GB NVMe PCIe Gen3x4 SSD",
+        "Killer 2.5Gb LAN",
+        "Killer Wi-Fi 6E AX1675",
+        "Bluetooth v5.2",
+        "1x Mic-in/Headphone-out Combo Jack"
+      ],
+      "oldPrice": 499,
+      "newPrice": 400,
+      "review": 5,
+      "condition": "in stock"
     }
   ],
   "users": [
@@ -256,7 +330,7 @@
       "username": "The Anh",
       "email": "admin@gmail.com",
       "password": "Theanh28@",
-      "avata": "https://www.facebook.com/photo/?fbid=3000080336985497&set=a.1639185969741614",
+      "avata": "/images/avata1.jpg",
       "cart": { "cartItems": [], "cartTotalAmount": 0, "cartTotalQuantity": 0 }
     }
   ]
