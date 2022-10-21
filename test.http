@@ -1,15 +1,16 @@
 
 # @name getoneuser
-GET https://msi-data.herokuapp.com/api/users
+GET https://msi-data.herokuapp.com/api/data?_limit=5&_page=2
 ###
 
 
-
+# @name GetLocal
+GET http://localhost:3000/api/data?_limit=10&_page=2
 
 
 # @name getAllProDuctByID
 
-GET https://msi-data.herokuapp.com/api/data?id=3&id=4&id=8
+GET https://msi-data.herokuapp.com/api/data
 
 ###
 
