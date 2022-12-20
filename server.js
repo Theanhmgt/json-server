@@ -63,3 +63,15 @@ const PORT = process.env.PORT || 3000
 server.listen(PORT, () => {
     console.log('JSON Server is running')
 })
+
+// newOrders = orders.reduce((agg,order)=> {
+//     let newOrder = {...order}
+//     if (order.orderStatus === "Processing") {
+//         let {cartItems} = order
+//         const totalPrice = cartItems.reduce((agg2,order)=> {
+//             return agg2 + (order.price * quantity)
+//         },0)
+//         newOrder[shippingInfo].totalPrice = totalPrice
+//     }
+//     return agg.push(newOrder)
+// },[])

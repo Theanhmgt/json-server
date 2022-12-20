@@ -1,6 +1,6 @@
 
 # @name getoneuser
-GET https://msi-data.herokuapp.com/api/data?_limit=5&_page=2
+GET https://msi-data.herokuapp.com/api/data?categorySlug=laptop-gaming&_page=1&_limit=4
 ###
 
 
