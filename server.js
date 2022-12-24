@@ -6,13 +6,10 @@ const queryString = require('query-string')
 // Set default middlewares (logger, static, cors and no-cache)
 server.use(middlewares)
 
-// Add custom routes before JSON Server router
 server.get('/echo', (req, res) => {
     res.jsonp(req.query)
 })
 
-// To handle POST, PUT and PATCH you need to use a body-parser
-// You can use the one used by JSON Server
 server.use(jsonServer.bodyParser)
 server.use((req, res, next) => {
     if (req.method === 'POST') {
@@ -23,11 +20,6 @@ server.use((req, res, next) => {
 })
 
 router.render = (req, res) => {
-    // Check GET with pagination
-    // If yes, custom output
-
-
-
     const headers = res.getHeaders();
 
     const totalCountHeader = headers['x-total-count'];
@@ -49,9 +41,6 @@ router.render = (req, res) => {
         return res.jsonp(result);
     }
 
-
-
-    // Otherwise, keep default behavior
     res.jsonp(res.locals.data);
 };
 
@@ -64,14 +53,3 @@ server.listen(PORT, () => {
     console.log('JSON Server is running')
 })
 
-// newOrders = orders.reduce((agg,order)=> {
-//     let newOrder = {...order}
-//     if (order.orderStatus === "Processing") {
-//         let {cartItems} = order
-//         const totalPrice = cartItems.reduce((agg2,order)=> {
-//             return agg2 + (order.price * quantity)
-//         },0)
-//         newOrder[shippingInfo].totalPrice = totalPrice
-//     }
-//     return agg.push(newOrder)
-// },[])
